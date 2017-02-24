@@ -1,2 +1,9 @@
 <h1>House#edit</h1>
+
+<h2>Edit THIS house</h2>
+
+<%= render "form" %>
+
+<h2><%= link_to "Delete this house?", house_path(@house), method: :delete%></h2>
+
 <p>Find me in app/views/house/edit.html.erb</p>

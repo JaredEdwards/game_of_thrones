@@ -1,0 +1,6 @@
+<%= form_for @character do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.check_box :alive %>
+  <%= f.submit %>
+<% end %>

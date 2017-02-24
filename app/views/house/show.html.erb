@@ -1,4 +1,7 @@
 <h1>House#show</h1>
+
+<%= link_to "Edit this House!", edit_house_path(@house) %>
+
 <h1><%= @house.name %></h1>
 <% @house.characters.each do |character| %>
   <div>
